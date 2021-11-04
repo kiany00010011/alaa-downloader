@@ -1,0 +1,87 @@
+@font-face {
+	font-family: Vazir;
+	src: url("fonts/Vazir.woff");
+}
+* {
+	font-family: Vazir;
+}
+body {
+	background: whitesmoke;
+}
+.container {
+	display: flex;
+	width: 50rem;
+	box-shadow: 0 10px 20px 0 rgba(153, 153, 153, 50%);
+	padding: 1rem;
+	align-items: center;
+	flex-direction: column;
+	margin: 2rem auto;
+	background: white;
+}
+.download_box, .links {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	justify-content: center;
+}
+.download_title, .download_description{
+	text-align: center;
+	color: rgb(66, 65, 65);
+}
+.download_helper {
+	margin-bottom: 0;
+}
+.download_input {
+	width: 100%;
+	height: 3rem;
+	display: block;
+	padding: 2px;
+	box-sizing: border-box;
+	border: 2px solid rgba(0,0,0,12%);
+	border-radius: 5px;
+	font-size: 1rem;
+	direction: ltr;
+}
+.download_input::-moz-placeholder {
+	text-align: right;
+	outline: none;
+}
+.download_submit {
+	background: #0072ec;
+	border: none;
+	margin-top: 1rem;
+	display: block;
+	width: 100%;
+	height: 4rem;
+	color: wheat;
+	text-align: center;
+	font-size: 2rem;
+	border-radius: 1rem;
+}
+.loading_box {
+	margin-top: 1rem;
+}
+.links_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.links_item {
+	background: #80f8de;
+	height: 2.5rem;
+	border-radius: 0.5rem;
+	margin: 1rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.link_item_text {
+	margin-right: 1rem;
+	color: #014894;
+	text-decoration: none;
+}
+.link_item_image {
+	height: 85%;
+	margin-left: 0.7rem;
+}

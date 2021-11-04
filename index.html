@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>دانلود راحت از الا!!</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="download_box">
+			<div class="download_titles">
+				<h1 class="download_title">دانلود یکجا دوره های آلا</h1>
+				<p class="download_description">فقط لینک رو بده بقیه ش با من :)</p>
+			</div>
+			<form class="download_fields" action="#">
+				<p class="download_helper">لینک</p>
+				<input type="url" class="download_input link_input" placeholder="لینک دوره">
+				<p class="download_helper">کیفیت</p>
+				<select value="کیفیت" class="download_input resolution_input">
+					<option value="720p">720p</option>
+					<option value="480p" selected>480p</option>
+					<option value="240p">240p</option>
+				</select>
+				<button class="download_submit" onclick="clicked(event)">برو بریم!!</button>
+			</form>
+		</div>
+		<div class="loading_box">در حال استخراج لینک ها...</div>
+		<div class="links">
+			<ul class="links_list">
+			</ul>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+<template>
+	hello
+</template>
+</html>
